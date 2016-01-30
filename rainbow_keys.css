@@ -1,0 +1,67 @@
+section {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+}
+
+.rainbow {
+	height: 100%;
+	width: calc(100%/12);
+	border-radius: 2px;
+	transition-duration: 2s;
+}
+
+.rainbow:hover {
+	transition-duration: .3s;
+}
+
+#one:hover {
+	background: #fdfe00;
+}
+
+#two:hover {
+	background: #ffc600;
+}
+
+#three:hover {
+	background: #fe8e01;
+}
+
+#four:hover {
+	background: #ff5f00;
+}
+
+#five:hover {
+	background: #fd0000;
+}
+
+#six:hover {
+	background: #c4017e;
+}
+
+#seven:hover {
+	background: #5d039a;
+}
+
+#eight:hover {
+	background: #0011a8;
+}
+
+#nine:hover {
+	background: #005eba;
+}
+
+#ten:hover {
+	background: #00a2c5;
+}
+
+#eleven:hover {
+	background: #0caf00;
+}
+
+#twelve:hover {
+	background: #89c800;
+}
+
+
